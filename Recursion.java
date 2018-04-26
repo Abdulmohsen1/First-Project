@@ -1,5 +1,4 @@
 
-
 public class Recursion {
 	
 	public int power ( int base , int exp) {
@@ -11,22 +10,22 @@ public class Recursion {
 	     return base * power(base , exp-1); 
 	}
 	
-	public int sum (int n )	{
+	public int sum (int number )	{
 		
-		if(n == 0) {
+		if(number == 0) {
 			return 0;
 		}
 		
-		return n+sum(n-1);
+		return number+sum(number-1);
 	}
 	
-	public int factorial ( int n) {
+	public int factorial ( int number) {
 		
-		if( n == 1 ) {
+		if( number == 1 ) {
 			return 1;
 		}
 		
-		return n * factorial(n-1);
+		return number * factorial(number-1);
 		
 	}
 	
@@ -39,6 +38,6 @@ public class Recursion {
 			System.out.println(arr[index]);
 			}
 		
-	     }
+        }
 
    }
