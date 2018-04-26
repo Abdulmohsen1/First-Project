@@ -6,7 +6,7 @@ public class TestRecursion {
 		
 	
 	
-		Recursion x = new Recursion ();
+	Recursion x = new Recursion ();
 		
 	System.out.println(x.power(2,3));
 	
@@ -18,7 +18,7 @@ public class TestRecursion {
 		System.out.println(a);
 		}
 	catch(Exception e) {
-			System.out.println("Error");
+		System.out.println("Error");
 		}
 	
 	
@@ -31,14 +31,5 @@ public class TestRecursion {
 	
 	x.print(f, 2);
 	
-	
-	
-	
-	
-	
-	
-	
 	}
-	
-
 }
